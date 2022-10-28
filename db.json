@@ -49,6 +49,10 @@
     {
       "id": 2,
       "nom": "Collège rosemont"
+    },
+    {
+      "id": 3,
+      "nom": "Centre sportif ville-marie"
     }
   ]
 }
