@@ -1,6 +1,6 @@
 
 {
-  "Clients": [
+  "clients": [
     {
       "id": 1,
       "prenom": "Francois",
@@ -41,7 +41,7 @@
     }
   ],
 
-  "Organismes": [
+  "organismes": [
     {
       "id": 1,
       "nom": "Centre sportif du plateau"
