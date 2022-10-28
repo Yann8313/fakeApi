@@ -1,41 +1,52 @@
 
 {
-  "clients": [
-    {
-      "id": 1,
-      "prenom": "Francois",
-      "nom": "Dupont"
-    },
-    {
-      "id": 2,
-      "prenom": "Kevin",
-      "nom": "Martinez"
-    }
-  ],
-
   "items": [
     {
       "id": 1,
+      "idOrganisme": 1,
       "nom": "Raquette de tennis",
-      "etat": "Bon"
+      "etat": "disponible"
     },
     {
       "id": 2,
+      "idOrganisme": 2,
       "nom": "Boule de pétanque",
-      "etat": "Moyen"
+      "etat": "disponible"
+    }
+  ],
+
+  "casiers": [
+    {
+      "id": 1,
+      "idOrganisme": 1,
+      "idItem": 1,
+      "idLieu": 1,
+      "etat": "disponible"
+    },
+    {
+      "id": 2,
+      "idOrganisme": 2,
+      "idItem": 2,
+      "idLieu": 2,
+      "etat": "disponible"
     }
   ],
 
   "lieux": [
     {
       "id": 1,
+      "idOrganisme": 1,
       "name": "Parc la fontaine",
+      "adresse": "185 rue du poney",
+      "codePostal": "H2K3V2",
+      "ville": "Montréal",
       "Ouverture": "08h00",
       "Fermeture": "16h00"
     },
     {
       "id": 2,
-      "name": "Parc Baubien",
+      "idOrganisme": 2,
+      "name": "Parking du collège rosemont",
       "Ouverture": "09h00",
       "Fermeture": "16h00"
     }
@@ -44,15 +55,25 @@
   "organismes": [
     {
       "id": 1,
-      "nom": "Centre sportif du plateau"
+      "nom": "Centre sportif du plateau",
+      "numeroCellulaire": 4388517894,
+      "approuve": "true"
     },
     {
       "id": 2,
-      "nom": "Collège rosemont"
-    },
+      "nom": "Collège rosemont",
+      "numeroCellulaire": 4388517884,
+      "approuve": "true"
+    }
+  ],
+
+  "locations": [
     {
-      "id": 3,
-      "nom": "Centre sportif ville-marie"
+      "id": 1,
+      "idCasier": 1,
+      "idUser": 1,
+      "heureDebut": "14h30",
+      "heureFin": ""
     }
   ]
 }
