@@ -7,7 +7,8 @@
       "nom": "Raquette de tennis",
       "prixTarif": 0.10,
       "dureeTarif": "00:01:00",
-      "etat": "disponible"
+      "etat": "disponible",
+      "imageUrl": "src/main/res/ImagesItems/raquette"
     },
     {
       "id": 2,
@@ -15,7 +16,8 @@
       "nom": "Boule de pétanque",
       "prixTarif": 1.00,
       "dureeTarif": "00:10:00",
-      "etat": "disponible"
+      "etat": "disponible",
+      "imageUrl": "src/main/res/ImagesItems/ballonBasket"
     }
   ],
 
@@ -51,6 +53,9 @@
       "id": 2,
       "idOrganisme": 2,
       "name": "Parking du collège rosemont",
+      "adresse": "185 rue du test",
+      "codePostal": "H4K3V5",
+      "ville": "Montréal",
       "Ouverture": "09h00",
       "Fermeture": "16h00"
     }
