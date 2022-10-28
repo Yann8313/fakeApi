@@ -8,8 +8,7 @@
       "prixTarif": 0.10,
       "dureeTarif": "00:01:00",
       "etat": "disponible",
-      "imageUrl": "src/main/res/ImagesItems/raquette",
-      "imageUrlInternet": 
+      "imageUrl": "src/main/res/ImagesItems/raquette"
     },
     {
       "id": 2,
