@@ -47,8 +47,8 @@
       "codePostal": "H2K3V2",
       "ville": "Montréal",
       "province": "QC",
-      "Ouverture": "08h00",
-      "Fermeture": "16h00"
+      "ouverture": "08h00",
+      "fermeture": "16h00"
     },
     {
       "id": 2,
