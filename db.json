@@ -1,32 +1,55 @@
 
 {
-  "posts": [
+  "Clients": [
     {
       "id": 1,
-      "title": "Post 1"
+      "prenom": "Francois",
+      "nom": "Dupont"
     },
     {
       "id": 2,
-      "title": "Post 2"
-    },
-    {
-      "id": 3,
-      "title": "Post 3"
+      "prenom": "Kevin",
+      "nom": "Martinez"
     }
   ],
-  "comments": [
+
+  "items": [
     {
       "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "nom": "Raquette de tennis",
+      "etat": "Bon"
     },
     {
       "id": 2,
-      "body": "some comment",
-      "postId": 1
+      "nom": "Boule de pétanque",
+      "etat": "Moyen"
     }
   ],
-  "profile": {
-    "name": "typicode"
-  }
+
+  "lieux": [
+    {
+      "id": 1,
+      "name": "Parc la fontaine",
+      "Ouverture": "08h00",
+      "Fermeture": "16h00"
+    },
+    {
+      "id": 2,
+      "name": "Parc Baubien",
+      "Ouverture": "09h00",
+      "Fermeture": "16h00"
+    }
+  ],
+
+  "Organismes": [
+    {
+      "id": 1,
+      "nom": "Centre sportif du plateau"
+    },
+    {
+      "id": 2,
+      "nom": "Collège rosemont"
+    }
+  ]
 }
+
