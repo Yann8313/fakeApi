@@ -5,12 +5,16 @@
       "id": 1,
       "idOrganisme": 1,
       "nom": "Raquette de tennis",
+      "prixTarif": 0.10,
+      "dureeTarif": "00:01:00",
       "etat": "disponible"
     },
     {
       "id": 2,
       "idOrganisme": 2,
       "nom": "Boule de pétanque",
+      "prixTarif": 1.00,
+      "dureeTarif": "00:10:00",
       "etat": "disponible"
     }
   ],
