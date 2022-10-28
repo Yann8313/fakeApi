@@ -8,7 +8,8 @@
       "prixTarif": 0.10,
       "dureeTarif": "00:01:00",
       "etat": "disponible",
-      "imageUrl": "src/main/res/ImagesItems/raquette"
+      "imageUrl": "src/main/res/ImagesItems/raquette",
+      "imageUrlInternet": 
     },
     {
       "id": 2,
@@ -46,6 +47,7 @@
       "adresse": "185 rue du poney",
       "codePostal": "H2K3V2",
       "ville": "Montréal",
+      "province": "QC",
       "Ouverture": "08h00",
       "Fermeture": "16h00"
     },
@@ -56,6 +58,7 @@
       "adresse": "185 rue du test",
       "codePostal": "H4K3V5",
       "ville": "Montréal",
+      "province": "QC",
       "Ouverture": "09h00",
       "Fermeture": "16h00"
     }
