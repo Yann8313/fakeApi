@@ -60,6 +60,28 @@
       "province": "QC",
       "Ouverture": "09h00",
       "Fermeture": "16h00"
+    },
+    {
+      "id": 3,
+      "idOrganisme": 3,
+      "name": "Parc beaubien",
+      "adresse": "185 rue du test",
+      "codePostal": "H4K3V5",
+      "ville": "Montréal",
+      "province": "QC",
+      "Ouverture": "09h00",
+      "Fermeture": "16h00"
+    },
+    {
+      "id": 4,
+      "idOrganisme": 4,
+      "name": "Terrain de tennis Lafont",
+      "adresse": "185 rue du test",
+      "codePostal": "H4K3V5",
+      "ville": "Montréal",
+      "province": "QC",
+      "Ouverture": "09h00",
+      "Fermeture": "16h00"
     }
   ],
 
