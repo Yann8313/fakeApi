@@ -12,12 +12,21 @@
     },
     {
       "id": 2,
-      "idOrganisme": 2,
+      "idOrganisme": 1,
       "nom": "Boule de pétanque",
       "prixTarif": 1.00,
       "dureeTarif": "00:10:00",
       "etat": "disponible",
-      "imageUrl": "src/main/res/ImagesItems/ballonBasket"
+      "imageUrl": "src/main/res/ImagesItems/boulesPetanque"
+    },
+    {
+      "id": 3,
+      "idOrganisme": 1,
+      "nom": "Disque golf",
+      "prixTarif": 1.00,
+      "dureeTarif": "00:10:00",
+      "etat": "disponible",
+      "imageUrl": "src/main/res/ImagesItems/disquegolf"
     }
   ],
 
@@ -31,9 +40,16 @@
     },
     {
       "id": 2,
-      "idOrganisme": 2,
+      "idOrganisme": 1,
       "idItem": 2,
-      "idLieu": 2,
+      "idLieu": 1,
+      "etat": "disponible"
+    },
+    {
+      "id": 3,
+      "idOrganisme": 1,
+      "idItem": 3,
+      "idLieu": 1,
       "etat": "disponible"
     }
   ],
@@ -52,7 +68,7 @@
     },
     {
       "id": 2,
-      "idOrganisme": 2,
+      "idOrganisme": 1,
       "name": "Parking du collège rosemont",
       "adresse": "185 rue du test",
       "codePostal": "H4K3V5",
@@ -63,7 +79,7 @@
     },
     {
       "id": 3,
-      "idOrganisme": 3,
+      "idOrganisme": 1,
       "name": "Parc beaubien",
       "adresse": "185 rue du test",
       "codePostal": "H4K3V5",
@@ -74,7 +90,7 @@
     },
     {
       "id": 4,
-      "idOrganisme": 4,
+      "idOrganisme": 1,
       "name": "Terrain de tennis Lafont",
       "adresse": "185 rue du test",
       "codePostal": "H4K3V5",
