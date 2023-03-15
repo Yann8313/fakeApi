@@ -1,129 +1,104 @@
 
 {
-  "items": [
-    {
-      "id": 1,
-      "idOrganisme": 1,
-      "nom": "Raquette de tennis",
-      "prixTarif": 0.10,
-      "dureeTarif": "00:01:00",
-      "etat": "disponible",
-      "imageUrl": "src/main/res/ImagesItems/raquette"
-    },
-    {
-      "id": 2,
-      "idOrganisme": 1,
-      "nom": "Boule de pétanque",
-      "prixTarif": 1.00,
-      "dureeTarif": "00:10:00",
-      "etat": "disponible",
-      "imageUrl": "src/main/res/ImagesItems/boulesPetanque"
-    },
-    {
-      "id": 3,
-      "idOrganisme": 1,
-      "nom": "Disque golf",
-      "prixTarif": 1.00,
-      "dureeTarif": "00:10:00",
-      "etat": "disponible",
-      "imageUrl": "src/main/res/ImagesItems/disquegolf"
-    }
-  ],
+  "logs": [{ 
 
-  "casiers": [
-    {
-      "id": 1,
-      "idOrganisme": 1,
-      "idItem": 1,
-      "idLieu": 1,
-      "etat": "disponible"
-    },
-    {
-      "id": 2,
-      "idOrganisme": 1,
-      "idItem": 2,
-      "idLieu": 1,
-      "etat": "disponible"
-    },
-    {
-      "id": 3,
-      "idOrganisme": 1,
-      "idItem": 3,
-      "idLieu": 1,
-      "etat": "disponible"
-    }
-  ],
+  "commit": "512c61ac5dda9254f75edb99f9c0ad34bd9d1597", 
 
-  "lieux": [
-    {
-      "id": 1,
-      "idOrganisme": 1,
-      "name": "Parc la fontaine",
-      "adresse": "185 rue du poney",
-      "codePostal": "H2K3V2",
-      "ville": "Montréal",
-      "province": "QC",
-      "ouverture": "08h00",
-      "fermeture": "16h00"
-    },
-    {
-      "id": 2,
-      "idOrganisme": 1,
-      "name": "Parking du collège rosemont",
-      "adresse": "185 rue du test",
-      "codePostal": "H4K3V5",
-      "ville": "Montréal",
-      "province": "QC",
-      "Ouverture": "09h00",
-      "Fermeture": "16h00"
-    },
-    {
-      "id": 3,
-      "idOrganisme": 1,
-      "name": "Parc beaubien",
-      "adresse": "185 rue du test",
-      "codePostal": "H4K3V5",
-      "ville": "Montréal",
-      "province": "QC",
-      "Ouverture": "09h00",
-      "Fermeture": "16h00"
-    },
-    {
-      "id": 4,
-      "idOrganisme": 1,
-      "name": "Terrain de tennis Lafont",
-      "adresse": "185 rue du test",
-      "codePostal": "H4K3V5",
-      "ville": "Montréal",
-      "province": "QC",
-      "Ouverture": "09h00",
-      "Fermeture": "16h00"
-    }
-  ],
+  "author_name": "Patrick Lafrance", 
 
-  "organismes": [
-    {
-      "id": 1,
-      "nom": "Centre sportif du plateau",
-      "numeroCellulaire": 4388517894,
-      "approuve": "true"
-    },
-    {
-      "id": 2,
-      "nom": "Collège rosemont",
-      "numeroCellulaire": 4388517884,
-      "approuve": "true"
-    }
-  ],
+  "author_email": "patrick.lafrance@gmail.com", 
 
-  "locations": [
-    {
-      "id": 1,
-      "idCasier": 1,
-      "idUser": 1,
-      "heureDebut": "14h30",
-      "heureFin": ""
-    }
-  ]
+  "author_date": "2021-01-08T17:53:43-05:00", 
+
+  "committer_name": "Patrick Lafrance", 
+
+  "committer_email": "patrick.lafrance@gmail.com", 
+
+  "committer_date": "2021-01-08T17:53:43-05:00", 
+
+  "subject": "Commit initial", 
+
+  "parent": "", 
+
+  "refs": "", 
+
+  "source": "refs/remotes/origin/59-section-tests-collapsible" 
+
+},
+{ 
+
+  "commit": "aa9a2ed7ae4c6bd8cd57e98ff995bf67654b6be7", 
+
+  "author_name": "Samuel Beaulieu", 
+
+  "author_email": "6149537@crosemont.qc.ca", 
+
+  "author_date": "2021-02-10T17:16:08-05:00", 
+
+  "committer_name": "Samuel Beaulieu", 
+
+  "committer_email": "6149537@crosemont.qc.ca", 
+
+  "committer_date": "2021-02-10T17:16:08-05:00", 
+
+  "subject": "Ajout de Question.vue", 
+
+  "parent": "512c61ac5dda9254f75edb99f9c0ad34bd9d1597", 
+
+  "refs": "", 
+
+  "source": "refs/remotes/origin/59-section-tests-collapsible" 
+
+},
+{ 
+
+  "commit": "00aa02bca46960ea1a99eedf703ae84180aa98d6", 
+
+  "author_name": "Sebastien Vermandele", 
+
+  "author_email": "sebvermandele@gmail.com", 
+
+  "author_date": "2021-02-10T17:28:20-05:00", 
+
+  "committer_name": "Sebastien Vermandele", 
+
+  "committer_email": "sebvermandele@gmail.com", 
+
+  "committer_date": "2021-02-10T17:28:20-05:00", 
+
+  "subject": "add api request for solution", 
+
+  "parent": "512c61ac5dda9254f75edb99f9c0ad34bd9d1597", 
+
+  "refs": "", 
+
+  "source": "refs/remotes/origin/59-section-tests-collapsible" 
+
+},
+{ 
+
+  "commit": "bf975a3aa6df91667ed7d412d0314972300fe6d7", 
+
+  "author_name": "Simon Roy", 
+
+  "author_email": "simon.roy1211@gmail.com", 
+
+  "author_date": "2021-02-10T18:07:22-05:00", 
+
+  "committer_name": "Simon Roy", 
+
+  "committer_email": "simon.roy1211@gmail.com", 
+
+  "committer_date": "2021-02-10T18:07:22-05:00", 
+
+  "subject": "Ajout de la page question et d'un bouton pour passer la connexion", 
+
+  "parent": "aa9a2ed7ae4c6bd8cd57e98ff995bf67654b6be7", 
+
+  "refs": "", 
+
+  "source": "refs/remotes/origin/59-section-tests-collapsible" 
+
+}]
 }
 
