@@ -1,176 +1,102 @@
 {
-    "logs": [{
-        "refs": [
-          "HEAD",
-          "dev",
-          "origin/dev"
-        ],
-        "hash": "1c0299de2e30bd613ebc4516229f781c1642024f",
-        "hashAbbrev": "1c0299d",
-        "tree": "d64185f4503dfdeede1ecfe43afbcdcbbc4f0beb",
-        "treeAbbrev": "d64185f",
-        "parents": [
-          "0e3b7f3909bc51a12b9ceb39e17b916d5fa48151",
-          "407704aed23c3cb62e6e6927dc31ec493af2dca4"
-        ],
-        "parentsAbbrev": [
-          "0e3b7f3",
-          "407704a"
-        ],
-        "author": {
-          "name": "Patrick Lafrance",
-          "email": "patrick.lafrance@gmail.com",
-          "timestamp": 1676929168000
-        },
-        "committer": {
-          "name": "Patrick Lafrance",
-          "email": "patrick.lafrance@gmail.com",
-          "timestamp": 1676929168000
-        },
-        "subject": "Merge branch 'master' into dev",
-        "body": "",
-        "notes": "",
-        "stats": []
-      },
-      {
-        "refs": [
-          "origin/master",
-          "origin/HEAD",
-          "master"
-        ],
-        "hash": "407704aed23c3cb62e6e6927dc31ec493af2dca4",
-        "hashAbbrev": "407704a",
-        "tree": "ddb0233868f3145425448293f0bd5e1c4f6980df",
-        "treeAbbrev": "ddb0233",
-        "parents": [
-          "be4913472f14ee5987cf20c9d3bd3a1c11740464"
-        ],
-        "parentsAbbrev": [
-          "be49134"
-        ],
-        "author": {
-          "name": "Patrick Lafrance",
-          "email": "plafrance@crosemont.qc.ca",
-          "timestamp": 1676928827000
-        },
-        "committer": {
-          "name": "Patrick Lafrance",
-          "email": "plafrance@crosemont.qc.ca",
-          "timestamp": 1676928827000
-        },
-        "subject": "enlevé la restriction des tests sur la branche dev",
-        "body": "",
-        "notes": "",
-        "stats": [
-          {
-            "additions": 0,
-            "deletions": 1,
-            "file": ".gitlab-ci.yml"
-          }
-        ]
-      },
-      {
-        "refs": [],
-        "hash": "be4913472f14ee5987cf20c9d3bd3a1c11740464",
-        "hashAbbrev": "be49134",
-        "tree": "a50679dcfa2d12ad0815538fb1de1f1209bcc762",
-        "treeAbbrev": "a50679d",
-        "parents": [
-          "d37ea8b94a67825cf982956a2addd09e6cd36ec6"
-        ],
-        "parentsAbbrev": [
-          "d37ea8b"
-        ],
-        "author": {
-          "name": "Patrick Lafrance",
-          "email": "plafrance@crosemont.qc.ca",
-          "timestamp": 1676928341000
-        },
-        "committer": {
-          "name": "Patrick Lafrance",
-          "email": "plafrance@crosemont.qc.ca",
-          "timestamp": 1676928341000
-        },
-        "subject": "Test variables de CI",
-        "body": "",
-        "notes": "",
-        "stats": [
-          {
-            "additions": 1,
-            "deletions": 1,
-            "file": "VERSION"
-          }
-        ]
-      },
-      {
-        "refs": [],
-        "hash": "d37ea8b94a67825cf982956a2addd09e6cd36ec6",
-        "hashAbbrev": "d37ea8b",
-        "tree": "0383c05923ae3be6b1fb8fa96976d82bc9700408",
-        "treeAbbrev": "0383c05",
-        "parents": [
-          "d75408c0832a8f7a26e8ba3784d72ea458685a7c"
-        ],
-        "parentsAbbrev": [
-          "d75408c"
-        ],
-        "author": {
-          "name": "Patrick Lafrance",
-          "email": "plafrance@crosemont.qc.ca",
-          "timestamp": 1676927980000
-        },
-        "committer": {
-          "name": "Patrick Lafrance",
-          "email": "plafrance@crosemont.qc.ca",
-          "timestamp": 1676927980000
-        },
-        "subject": "Remplacé le chemin du projet par une variable",
-        "body": "",
-        "notes": "",
-        "stats": [
-          {
-            "additions": 5,
-            "deletions": 5,
-            "file": ".gitlab-ci.yml"
-          }
-        ]
-      },
-      {
-        "refs": [],
-        "hash": "d75408c0832a8f7a26e8ba3784d72ea458685a7c",
-        "hashAbbrev": "d75408c",
-        "tree": "6b1bfb0e8f0841fe6cec586d191798fdd132d5e2",
-        "treeAbbrev": "6b1bfb0",
-        "parents": [
-          "06f7ce16d401514475bdf41b80360c603058f1dd"
-        ],
-        "parentsAbbrev": [
-          "06f7ce1"
-        ],
-        "author": {
-          "name": "Patrick Lafrance",
-          "email": "plafrance@crosemont.qc.ca",
-          "timestamp": 1676871553000
-        },
-        "committer": {
-          "name": "Patrick Lafrance",
-          "email": "plafrance@crosemont.qc.ca",
-          "timestamp": 1676871553000
-        },
-        "subject": "Correction définitive du bogue #91",
-        "body": "",
-        "notes": "",
-        "stats": [
-          {
-            "additions": 1,
-            "deletions": 1,
-            "file": "VERSION"
-          },
-          {
-            "additions": 0,
-            "deletions": 2,
-            "file": "app/src/store/getters.js"
-          }
-        ]
-      }]
-  }
+  "logs": [{ 
+
+  "commit": "512c61ac5dda9254f75edb99f9c0ad34bd9d1597", 
+
+  "author_name": "Patrick Lafrance", 
+
+  "author_email": "patrick.lafrance@gmail.com", 
+
+  "author_date": "2021-01-08T17:53:43-05:00", 
+
+  "committer_name": "Patrick Lafrance", 
+
+  "committer_email": "patrick.lafrance@gmail.com", 
+
+  "committer_date": "2021-01-08T17:53:43-05:00", 
+
+  "subject": "Commit initial", 
+
+  "parent": "", 
+
+  "refs": "", 
+
+  "source": "refs/remotes/origin/59-section-tests-collapsible" 
+
+},
+{ 
+
+  "commit": "aa9a2ed7ae4c6bd8cd57e98ff995bf67654b6be7", 
+
+  "author_name": "Samuel Beaulieu", 
+
+  "author_email": "6149537@crosemont.qc.ca", 
+
+  "author_date": "2021-02-10T17:16:08-05:00", 
+
+  "committer_name": "Samuel Beaulieu", 
+
+  "committer_email": "6149537@crosemont.qc.ca", 
+
+  "committer_date": "2021-02-10T17:16:08-05:00", 
+
+  "subject": "Ajout de Question.vue", 
+
+  "parent": "512c61ac5dda9254f75edb99f9c0ad34bd9d1597", 
+
+  "refs": "", 
+
+  "source": "refs/remotes/origin/59-section-tests-collapsible" 
+
+},
+{ 
+
+  "commit": "00aa02bca46960ea1a99eedf703ae84180aa98d6", 
+
+  "author_name": "Sebastien Vermandele", 
+
+  "author_email": "sebvermandele@gmail.com", 
+
+  "author_date": "2021-02-10T17:28:20-05:00", 
+
+  "committer_name": "Sebastien Vermandele", 
+
+  "committer_email": "sebvermandele@gmail.com", 
+
+  "committer_date": "2021-02-10T17:28:20-05:00", 
+
+  "subject": "add api request for solution", 
+
+  "parent": "512c61ac5dda9254f75edb99f9c0ad34bd9d1597", 
+
+  "refs": "", 
+
+  "source": "refs/remotes/origin/59-section-tests-collapsible" 
+
+},
+{ 
+
+  "commit": "bf975a3aa6df91667ed7d412d0314972300fe6d7", 
+
+  "author_name": "Simon Roy", 
+
+  "author_email": "simon.roy1211@gmail.com", 
+
+  "author_date": "2021-02-10T18:07:22-05:00", 
+
+  "committer_name": "Simon Roy", 
+
+  "committer_email": "simon.roy1211@gmail.com", 
+
+  "committer_date": "2021-02-10T18:07:22-05:00", 
+
+  "subject": "Ajout de la page question et d'un bouton pour passer la connexion", 
+
+  "parent": "aa9a2ed7ae4c6bd8cd57e98ff995bf67654b6be7", 
+
+  "refs": "", 
+
+  "source": "refs/remotes/origin/59-section-tests-collapsible" 
+
+}]
+}
